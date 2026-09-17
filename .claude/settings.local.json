@@ -19,7 +19,11 @@
       "Bash(git remote *)",
       "Bash(git branch *)",
       "Bash(git push *)",
-      "Bash(git commit -m 'style: 更新配色方案为蓝色+橘黄色+紫色三色体系 *)"
+      "Bash(git commit -m 'style: 更新配色方案为蓝色+橘黄色+紫色三色体系 *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" --connect-timeout 10 https://github.com)",
+      "Bash(gh repo *)",
+      "Bash(git checkout *)",
+      "Bash(git commit -m 'chore: 更新本地配置文件 *)"
     ]
   }
 }
