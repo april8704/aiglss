@@ -19,7 +19,7 @@ export default function ContactPage() {
         <div className="absolute inset-0">
           <div
             className="gradient-orb w-[500px] h-[500px] top-0 right-0"
-            style={{ background: 'radial-gradient(circle, rgba(139,92,246,0.12) 0%, transparent 70%)' }}
+            style={{ background: 'radial-gradient(circle, rgba(249,115,22,0.10) 0%, transparent 70%)' }}
           />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

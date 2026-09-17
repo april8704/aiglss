@@ -15,7 +15,7 @@ export function Hero() {
         />
         <div
           className="gradient-orb-reverse w-[500px] h-[500px] top-[60%] -left-[100px]"
-          style={{ background: 'radial-gradient(circle, rgba(139,92,246,0.25) 0%, transparent 70%)' }}
+          style={{ background: 'radial-gradient(circle, rgba(249,115,22,0.20) 0%, transparent 70%)' }}
         />
         <div
           className="gradient-orb-pulse w-[400px] h-[400px] top-[30%] left-[50%]"

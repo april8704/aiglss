@@ -13,7 +13,13 @@
       "Bash(node -e \"const icons = require\\('lucide-react'\\); console.log\\('Github' in icons, 'GitHubIcon' in icons\\); const names = Object.keys\\(icons\\).filter\\(k => k.toLowerCase\\(\\).includes\\('git'\\)\\); console.log\\(names\\); const tnames = Object.keys\\(icons\\).filter\\(k => k.toLowerCase\\(\\).includes\\('twi'\\)\\); console.log\\(tnames\\);\")",
       "Bash(git init *)",
       "Bash(git add *)",
-      "Bash(git commit -m 'feat: 初始化 AI 眼镜企业官网项目 *)"
+      "Bash(git commit -m 'feat: 初始化 AI 眼镜企业官网项目 *)",
+      "Bash(git config *)",
+      "Bash(git commit *)",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(git commit -m 'style: 更新配色方案为蓝色+橘黄色+紫色三色体系 *)"
     ]
   }
 }

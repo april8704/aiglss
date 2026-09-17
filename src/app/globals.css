@@ -6,8 +6,10 @@
   --color-foreground: #f0f0f5;
   --color-primary: #3b82f6;
   --color-primary-light: #60a5fa;
-  --color-accent: #8b5cf6;
-  --color-accent-light: #a78bfa;
+  --color-accent: #f97316;
+  --color-accent-light: #fb923c;
+  --color-secondary: #8b5cf6;
+  --color-secondary-light: #a78bfa;
   --color-surface: #0a0a12;
   --color-surface-light: #12121e;
   --color-border: #1e1e2e;
@@ -36,7 +38,7 @@ body {
 }
 
 ::selection {
-  background: rgba(139, 92, 246, 0.4);
+  background: rgba(249, 115, 22, 0.4);
   color: #ffffff;
 }
 
@@ -91,8 +93,8 @@ body {
 
 .glass-card:hover {
   background: rgba(255, 255, 255, 0.06);
-  border-color: rgba(59, 130, 246, 0.3);
-  box-shadow: 0 0 30px rgba(59, 130, 246, 0.1), 0 0 60px rgba(139, 92, 246, 0.05);
+  border-color: rgba(59, 130, 246, 0.25);
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.08), 0 0 60px rgba(249, 115, 22, 0.05);
 }
 
 /* Glow button */
@@ -106,7 +108,7 @@ body {
   content: '';
   position: absolute;
   inset: -2px;
-  background: linear-gradient(135deg, #3b82f6, #8b5cf6, #3b82f6);
+  background: linear-gradient(135deg, #3b82f6, #f97316, #8b5cf6);
   border-radius: inherit;
   z-index: -1;
   opacity: 0;
@@ -117,16 +119,25 @@ body {
   opacity: 1;
 }
 
-/* Text gradient */
+/* Text gradient — blue → orange */
 .text-gradient {
-  background: linear-gradient(135deg, #60a5fa, #a78bfa);
+  background: linear-gradient(135deg, #60a5fa, #fb923c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
+/* Text gradient — blue → purple */
 .text-gradient-primary {
   background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Text gradient — orange → purple */
+.text-gradient-warm {
+  background: linear-gradient(135deg, #f97316, #8b5cf6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -141,7 +152,7 @@ body {
 /* Section divider */
 .section-divider {
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.3), rgba(139, 92, 246, 0.3), transparent);
+  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.3), rgba(249, 115, 22, 0.2), rgba(139, 92, 246, 0.3), transparent);
 }
 
 /* Custom scrollbar for webkit */

@@ -35,12 +35,12 @@ export function CTASection() {
         {/* Central radial glow */}
         <div
           className="gradient-orb w-[900px] h-[900px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
-          style={{ background: 'radial-gradient(circle, rgba(59,130,246,0.15) 0%, rgba(139,92,246,0.08) 40%, transparent 70%)' }}
+          style={{ background: 'radial-gradient(circle, rgba(59,130,246,0.15) 0%, rgba(249,115,22,0.06) 40%, transparent 70%)' }}
         />
         {/* Accent orbs */}
         <div
           className="gradient-orb-reverse w-[400px] h-[400px] top-[20%] left-[10%]"
-          style={{ background: 'radial-gradient(circle, rgba(139,92,246,0.12) 0%, transparent 70%)' }}
+          style={{ background: 'radial-gradient(circle, rgba(139,92,246,0.10) 0%, transparent 70%)' }}
         />
         <div
           className="gradient-orb w-[350px] h-[350px] bottom-[10%] right-[10%]"
